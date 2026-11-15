@@ -30,7 +30,7 @@ from sklearn.preprocessing import OneHotEncoder
 
 
 DATA_PATH = Path(__file__).resolve().parent / "data" / "customer_booking.csv"
-REPORT_DIR = Path(__file__).resolve().parent / "reports"
+REPORT_DIR = Path(__file__).resolve().parent / "outputs"
 TARGET = "booking_complete"
 RANDOM_STATE = 42
 CLASSIFICATION_THRESHOLD = 0.5

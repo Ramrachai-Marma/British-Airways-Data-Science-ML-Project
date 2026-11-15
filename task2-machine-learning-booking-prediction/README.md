@@ -53,7 +53,7 @@ The full analysis is in [booking_model.ipynb](booking_model.ipynb).
 | F1 | 0.445 | 0.440 |
 | Accuracy | 0.754 | 0.753 |
 
-![Permutation importance of each variable](feature_importance.png)
+![Permutation importance of each variable](outputs/feature_importance.png)
 
 ### Key findings
 
@@ -64,7 +64,7 @@ The full analysis is in [booking_model.ipynb](booking_model.ipynb).
 
 ### Script version with a one-hot baseline
 
-[task2_analysis.py](task2_analysis.py) is a standalone script that runs a simpler variant: all categorical columns one-hot encoded, duplicates kept, a single stratified 80/20 split, and a majority-class baseline for comparison. It writes metrics, tables and charts to [reports/](reports/).
+[task2_analysis.py](task2_analysis.py) is a standalone script that runs a simpler variant: all categorical columns one-hot encoded, duplicates kept, a single stratified 80/20 split, and a majority-class baseline for comparison. It writes metrics, tables and charts to [outputs/](outputs/).
 
 | Metric (20% test set) | Random forest | Majority-class baseline |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ The full analysis is in [booking_model.ipynb](booking_model.ipynb).
 
 Both variants reach the same conclusion: `booking_origin` and `route` rank first and second, and ROC AUC is about 0.79. Note that this script reports impurity-based importance, which tends to favour columns with many values, so the notebook's permutation importance is the better guide to the smaller variables.
 
-![Evaluation charts from the script](reports/evaluation.png)
+![Evaluation charts from the script](outputs/evaluation.png)
 
 ## Limitations
 

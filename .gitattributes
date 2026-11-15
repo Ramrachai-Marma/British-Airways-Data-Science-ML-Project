@@ -1,0 +1,7 @@
+# Normalise line endings for text files
+* text=auto eol=lf
+
+# Binary files
+*.png binary
+*.pdf binary
+*.xlsx binary

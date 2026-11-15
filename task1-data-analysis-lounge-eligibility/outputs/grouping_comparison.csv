@@ -1,0 +1,11 @@
+grouping,group,flights,avg_seats,tier1_pct,tier1_pax_per_flight,tier2_pct,tier2_pax_per_flight,tier3_pct,tier3_pax_per_flight
+Time of day,Morning,3530,226,0.3,0.6,3.5,8.0,13.5,30.5
+Time of day,Evening,2973,225,0.3,0.6,3.5,7.9,13.5,30.3
+Time of day,Afternoon,2305,226,0.3,0.6,3.5,7.9,13.4,30.2
+Time of day,Lunchtime,1192,220,0.3,0.6,3.7,8.1,14.0,30.7
+Haul,Short-haul,5975,180,0.3,0.6,4.4,7.9,16.9,30.3
+Haul,Long-haul,4025,292,0.2,0.6,2.7,8.0,10.5,30.6
+Region,Europe,5975,180,0.3,0.6,4.4,7.9,16.9,30.3
+Region,North America,2658,292,0.2,0.6,2.8,8.1,10.5,30.8
+Region,Middle East,688,292,0.2,0.6,2.7,7.9,10.3,30.0
+Region,Asia,679,291,0.2,0.6,2.7,7.8,10.4,30.1

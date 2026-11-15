@@ -1,0 +1,5 @@
+CATEGORY,flights,avg_seats,tier1_pct,tier1_pax_per_flight,tier2_pct,tier2_pax_per_flight,tier3_pct,tier3_pax_per_flight
+Short-haul - Europe,5975,180,0.3,0.6,4.4,7.9,16.9,30.3
+Long-haul - North America,2658,292,0.2,0.6,2.8,8.1,10.5,30.8
+Long-haul - Middle East,688,292,0.2,0.6,2.7,7.9,10.3,30.0
+Long-haul - Asia,679,291,0.2,0.6,2.7,7.8,10.4,30.1

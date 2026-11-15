@@ -13,6 +13,7 @@ Two data science tasks on British Airways data: a data analysis of lounge demand
 .
 ├── README.md
 ├── requirements.txt
+├── LICENSE
 ├── task1-data-analysis-lounge-eligibility/
 │   ├── README.md                  Problem, approach and results
 │   ├── lounge_eligibility.py      Builds the lookup table from the schedule
@@ -23,9 +24,8 @@ Two data science tasks on British Airways data: a data analysis of lounge demand
     ├── README.md                  Problem, approach and results
     ├── booking_model.ipynb        Main analysis notebook
     ├── task2_analysis.py          Script version with a one-hot baseline
-    ├── feature_importance.png     Chart produced by the notebook
     ├── data/                      Customer booking dataset (50,000 rows)
-    ├── reports/                   Metrics, tables and charts from the script
+    ├── outputs/                   Metrics, tables and charts
     ├── presentation/              One-slide summary (PDF)
     └── docs/                      Problem statement (PDF)
 ```
@@ -44,7 +44,7 @@ python task1-data-analysis-lounge-eligibility/lounge_eligibility.py
 cd task2-machine-learning-booking-prediction
 jupyter notebook booking_model.ipynb
 
-# Task 2, script version: writes to task2-machine-learning-booking-prediction/reports/
+# Task 2, script version: writes to task2-machine-learning-booking-prediction/outputs/
 python task2-machine-learning-booking-prediction/task2_analysis.py
 ```
 
@@ -55,3 +55,11 @@ Python, pandas, scikit-learn, matplotlib, Jupyter.
 ## Data and disclaimer
 
 The datasets and task briefs were supplied by British Airways through Forage for learning purposes. This is a portfolio project, not official British Airways work, and the models are not intended for production decisions.
+
+## License
+
+The code and write-ups in this repository are released under the [MIT License](LICENSE). The datasets and task briefs remain the property of British Airways and Forage and are included for educational use only.
+
+## Author
+
+**Ramrachai Marma** · [GitHub](https://github.com/Ramrachai-Marma)
